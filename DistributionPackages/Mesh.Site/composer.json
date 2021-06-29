@@ -1,0 +1,34 @@
+{
+    "name": "mesh/site",
+    "description": "Neos CMS Mesh website",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "~7.1.0",
+        "neos/site-kickstarter": "~7.1.0",
+        "neos/nodetypes": "^7.1",
+        "neos/seo": "*",
+        "neos/setup": "^5.0",
+        "neos/neos-setup": "^1.1",
+        "neos/redirecthandler-neosadapter": "*",
+        "neos/redirecthandler-databasestorage": "*",
+        "neos/redirecthandler-ui": "*",
+        "neos/neos-ui": "^7.1",
+        "neos/neos-ui-compiled": "*",
+        "neos/swiftmailer": "*",
+        "flownative/neos-compressor": "*",
+        "neosrulez/dynamicresources": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mesh\\Site\\": "Classes/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "neos": {
+            "package-key": "Mesh.Site"
+        }
+    }
+}
